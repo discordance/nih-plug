@@ -431,6 +431,24 @@ dependencies = [
 [[package]]
 name = "baseview"
 version = "0.1.0"
+source = "git+https://github.com/RustAudio/baseview.git?rev=2c1b1a7#2c1b1a7b0fef1a29a5150a6a8f6fef6a0cbab8c4"
+dependencies = [
+ "cocoa",
+ "core-foundation",
+ "keyboard-types",
+ "nix 0.22.3",
+ "objc",
+ "raw-window-handle 0.5.2",
+ "uuid",
+ "winapi",
+ "x11",
+ "xcb 0.9.0",
+ "xcb-util",
+]
+
+[[package]]
+name = "baseview"
+version = "0.1.0"
 source = "git+https://github.com/RustAudio/baseview.git?rev=7001c2521fa1a439a01967cb881b411cd75d9ee0#7001c2521fa1a439a01967cb881b411cd75d9ee0"
 dependencies = [
  "cocoa",
@@ -2540,7 +2558,7 @@ dependencies = [
  "atomic_float",
  "atomic_refcell",
  "backtrace",
- "baseview 0.1.0 (git+https://github.com/RustAudio/baseview.git?rev=1d9806d5bd92275d0d8142d9c9c90198757b9b25)",
+ "baseview 0.1.0 (git+https://github.com/RustAudio/baseview.git?rev=2c1b1a7)",
  "bitflags",
  "cfg-if 1.0.0",
  "clap",
@@ -2558,7 +2576,7 @@ dependencies = [
  "nih_plug_derive",
  "objc",
  "parking_lot 0.12.1",
- "raw-window-handle 0.4.3",
+ "raw-window-handle 0.5.2",
  "rtrb",
  "serde",
  "serde_json",
